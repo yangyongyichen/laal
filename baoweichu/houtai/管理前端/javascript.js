@@ -21,6 +21,6 @@ function getFileName(){
 	myForm.usrname.value=myForm.input_file.value;
 	myForm.input_file.value="";
 	var myRegExp=/\b\\\b/i;
-	var gyb=myForm.usrname.value.search(myRegExp);
-	myForm.usrname.value=myForm.usrname.value.substr(12);
+	var fileName=myForm.usrname.value.search(myRegExp)+1;
+	myForm.usrname.value=myForm.usrname.value.substr(fileName);
 }
