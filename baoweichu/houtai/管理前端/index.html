@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Dashboard | Klorofil - Free Bootstrap Dashboard Template</title>
+	<title>大学生安全保卫委员会管理网站</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -65,8 +65,8 @@
 							<a href="#subPages" data-toggle="collapse" class="collapsed"><i class="lnr lnr-file-empty"></i> <span>文章管理</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
 							<div id="subPages" class="collapse ">
 								<ul class="nav">		
-									<li><a href="upload-files.html" class="">文章上传</a></li>
-									<li><a href="articlelist.html" class="">文章列表</a></li>
+									<li><a href="upload-files.html" class="active">文章上传</a></li>
+									<li><a href="articlelist.html" class="active">文章列表</a></li>
 								</ul>
 							</div>
 						</li>
@@ -100,10 +100,12 @@
 										</div>
 									</div>
 									<div class="panel-body">
-										<p>大学生安全保卫委员会是在校保卫处、学生处领导下，与“自务会”、“自育会”、“自律会”同一级别的学生组织，是学校治安综合治理和安全保卫工作的一支重要力量，是大学生开展日常安全知识自我教育的平台。大学生安全保卫委员会每年组织两次规范的安全教育月活动，通过组织治安、消防、交通等专题讲座，是学生对安全知识有了系统的了解...</p>
+										<form name="form1">
+											<textarea rows="3" cols="100" class="panel-textarea" name="panel_textarea_focus">大学生安全保卫委员会是在校保卫处、学生处领导下，与“自务会”、“自育会”、“自律会”同一级别的学生组织，是学校治安综合治理和安全保卫工作的一支重要力量，是大学生开展日常安全知识自我教育的平台。大学生安全保卫委员会每年组织两次规范的安全教育月活动，通过组织治安、消防、交通等专题讲座，是学生对安全知识有了系统的了解...</textarea>
+										</form>
 									</div>
 									<div class="panel-footer">
-										<h5>双击可进行修改</h5>
+										<h5><span ondblclick="get()" class="panel-footer-ondblclick">双击可进行修改</span></h5>
 									</div>
 								</div>
 							<!-- END PANEL WITH FOOTER -->
@@ -119,10 +121,12 @@
 										</div>
 									</div>
 									<div class="panel-body">
-										<p>大学生安全保卫委员会是在校保卫处、学生处领导下，与“自务会”、“自育会”、“自律会”同一级别的学生组织，是学校治安综合治理和安全保卫工作的一支重要力量，是大学生开展日常安全知识自我教育的平台。大学生安全保卫委员会每年组织两次规范的安全教育月活动，通过组织治安、消防、交通等专题讲座，是学生对安全知识有了系统的了解...</p>
+										<form name="form2">
+											<textarea rows="3" cols="100" class="panel-textarea" name="panel_textarea_focus">大学生安全保卫委员会是在校保卫处、学生处领导下，与“自务会”、“自育会”、“自律会”同一级别的学生组织，是学校治安综合治理和安全保卫工作的一支重要力量，是大学生开展日常安全知识自我教育的平台。大学生安全保卫委员会每年组织两次规范的安全教育月活动，通过组织治安、消防、交通等专题讲座，是学生对安全知识有了系统的了解...</textarea>
+										</form>
 									</div>
 									<div class="panel-footer">
-										<h5>双击可进行修改</h5>
+										<h5><span ondblclick="getSecond()" class="panel-footer-ondblclick">双击可进行修改</span></h5>
 									</div>
 								</div>
 							<!-- END PANEL WITH FOOTER -->
@@ -138,10 +142,12 @@
 										</div>
 									</div>
 									<div class="panel-body">
-										<p>大学生安全保卫委员会是在校保卫处、学生处领导下，与“自务会”、“自育会”、“自律会”同一级别的学生组织，是学校治安综合治理和安全保卫工作的一支重要力量，是大学生开展日常安全知识自我教育的平台。大学生安全保卫委员会每年组织两次规范的安全教育月活动，通过组织治安、消防、交通等专题讲座，是学生对安全知识有了系统的了解...</p>
+										<form name="form3">
+											<textarea rows="3" cols="100" class="panel-textarea" name="panel_textarea_focus">大学生安全保卫委员会是在校保卫处、学生处领导下，与“自务会”、“自育会”、“自律会”同一级别的学生组织，是学校治安综合治理和安全保卫工作的一支重要力量，是大学生开展日常安全知识自我教育的平台。大学生安全保卫委员会每年组织两次规范的安全教育月活动，通过组织治安、消防、交通等专题讲座，是学生对安全知识有了系统的了解...</textarea>
+										</form>
 									</div>
 									<div class="panel-footer">
-										<h5>双击可进行修改</h5>
+										<h5><span ondblclick="getThird()" class="panel-footer-ondblclick">双击可进行修改</span></h5>
 									</div>
 								</div>
 							<!-- END PANEL WITH FOOTER -->
@@ -163,6 +169,7 @@
 	<script src="assets/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
 	<script src="assets/vendor/chartist/js/chartist.min.js"></script>
 	<script src="assets/scripts/klorofil-common.js"></script>
+	<script type="text/javascript" src="javascript.js"></script>
 	<script>
 	$(function() {
 		var data, options;

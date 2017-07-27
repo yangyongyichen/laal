@@ -98,3 +98,32 @@
 .fancy-radio1{
 	display: inline-block;
 }
+.panel-textarea{
+	width: 100%;
+	border:0;
+	outline: none;
+}
+.panel-footer-ondblclick{
+	cursor: pointer;
+}
+.panel-body-form{
+	position: relative;
+	margin-top: -15px;
+}
+.panel-body form .input-file{
+	display: inline-block;
+	width: 100px;
+	height: 45px;
+	padding-top: 15px;
+	outline: none;
+	overflow: hidden;
+	cursor: pointer;
+	position: relative;
+	top:11px;
+	left: -100px;
+	opacity: 0;
+}
+.btn-submit{
+	position: relative;
+	left: -90px;
+}
