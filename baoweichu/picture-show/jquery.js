@@ -59,7 +59,7 @@ var options={
     "callBack":function(result){
     	     var cHtml="";
         for(var i=0;i<result.length;i++){
-            cHtml+="<li>"+"<img class=\"image_size\" src=\"images\/baoweichu"+result[i].did+".jpg\" \/>"+"<br>"+"<span class=\"picture-font\">"+result[i].name+"<\/span>"+"</li>";//处理数据
+            cHtml+="<li>"+"<img class=\"image_size\" src=\"images\/baoweichu"+result[i].did+".jpg\" \/>"+"<br>"+result[i].name+"</li>";//处理数据
         }
         $("#demoContent").html(cHtml);//将数据增加到页面中
     }
