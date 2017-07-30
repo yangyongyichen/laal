@@ -241,11 +241,11 @@ a{
 	padding-top: 15px;
 }
 .article-header-left,.article-header-right{
-	height: 45px;
+	height: 30px;
 	float: left;
 }
 .article-header-left{
-	width: 15px;
+	width: 10px;
 	background-color: #00549c;
 	margin-left: 45px;
 	margin-top: 5px;
@@ -257,7 +257,7 @@ a{
 }
 .article-content{
 	width: 850px;
-	height: 300px;
+	height: 250px;
 	margin-left: 70px;
 	margin-top: 15px;
 	float: left;
@@ -273,7 +273,7 @@ a{
 	margin:20px auto;
 }
 .lastest-activity{
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: 3px;
 	padding-bottom: 5px;
@@ -310,9 +310,8 @@ a{
     background-color: #DDDDDD;
 }
 #demoContent li{
-	padding-top: 25px;
+	padding-top: 15px;
 	border-bottom: 1px solid #dae1e7;
-	font-weight: bold;
 }
 #demoContent li a{
 	letter-spacing: 2px;
