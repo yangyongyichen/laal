@@ -241,11 +241,11 @@ a{
 	padding-top: 15px;
 }
 .picture-header-left,.picture-header-right{
-	height: 45px;
+	height: 30px;
 	float: left;
 }
 .picture-header-left{
-	width: 15px;
+	width: 10px;
 	background-color: #00549c;
 	margin-left: 45px;
 	margin-top: 5px;
@@ -273,7 +273,7 @@ a{
 	margin:20px auto;
 }
 .picture-show{
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: 3px;
 	padding-bottom: 5px;
