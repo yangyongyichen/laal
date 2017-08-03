@@ -27,7 +27,7 @@
         /**
          * Change client's local date to match offset timezone
          * @return {Object} Fixed Date object.
-         */
+         */ 
         var currentDate = function () {
             // get client's current date
             var date = new Date();
@@ -102,3 +102,16 @@
     };
 
 })(jQuery);
+
+var theDate=new Date();
+var year=theDate.getFullYear();
+document.getElementsByClassName('year')[0].innerHTML=year;
+var months=new Array("01","02","03","04","05","06","07","08","09","10","11","12");
+var month=months[theDate.getMonth()];
+document.getElementsByClassName('month')[0].innerHTML=month;
+var days=theDate.getDate();
+if(days<10){
+    document.getElementsByClassName('day')[0].innerHTML='0'+days;
+}else{
+    document.getElementsByClassName('day')[0].innerHTML=days;
+}
