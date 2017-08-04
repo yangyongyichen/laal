@@ -23,7 +23,7 @@
 .login-html{
 	width:100%;
 	height:100%;
-	max-width:675px;
+	max-width:893px;
 	min-height:670px;
 	position:relative;
 	display: inline-block;
@@ -31,6 +31,11 @@
 	margin-left: 25%;
 	padding:90px 70px 50px 70px;
 	background:rgba(40,57,101,.5);
+}
+@media screen and (max-width: 800px){
+	.login-html{
+		margin-left: 10%;
+	}
 }
 @media screen and (max-width: 768px){
 	.login-html{
