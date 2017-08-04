@@ -32,6 +32,11 @@
 	padding:90px 70px 50px 70px;
 	background:rgba(40,57,101,.5);
 }
+@media screen and (max-width: 380px){
+	.login-html{
+		margin-left: 0;
+	}
+}
 .login-html .sign-in-htm,
 .login-html .sign-up-htm{
 	top:0;
