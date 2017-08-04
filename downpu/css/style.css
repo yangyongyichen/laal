@@ -5,7 +5,7 @@
 	letter-spacing: 5px;
 }
 .logo-font-color{
-	color: #FF5335;
+	color: rgba(0,255,0,0.6);
 }
 .countdown-font{
 	font-weight: bold;

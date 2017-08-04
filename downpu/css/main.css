@@ -218,13 +218,16 @@ ul.countdown li p {
  -webkit-transition: all .8s ease;
  transition: all .8s ease;
     font-weight: bold;
-    box-shadow: 10px 10px  #888888;
 }
-
+.social li:first-child a:hover{
+	background-color: green;
+}
+.social li:last-child a:hover{
+	background-color: #F3971B;;
+}
 .social li a:hover {
 	color: #fff;
 	background: #d92709;
-	box-shadow: none;
 }
 /*
 .social li a {
