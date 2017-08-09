@@ -44,6 +44,18 @@
 .fancy-radio1{
 	display: inline-block;
 }
+.form-group input{
+	width: 400px;
+	margin:auto;
+	font-size: 20px;
+	border:0;
+	border-color: transparent;
+	background-color: transparent;
+	outline: none;
+}
+.panel-heading .right{
+	margin-top: 7px;
+}
 .panel-heading .right form button {
 	background-color: #41B314;
 	border-color: #3ca512;
